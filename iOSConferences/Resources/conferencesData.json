@@ -1,0 +1,90 @@
+[
+  {
+    "@id": "23413d33",
+    "name": "NSSpain 2021 Remote Edition",
+    "link": "https://2021.nsspain.com/",
+    "start": "2021-11-18",
+    "end": "2021-11-19",
+    "location": "🌐 Online"
+  },
+  {
+    "@id": "ab446bd8",
+    "name": "iOS Conf SG",
+    "link": "http://iosconf.sg/",
+    "start": "2022-01-20",
+    "end": "2022-01-21",
+    "location": "🌐 Online"
+  },
+  {
+    "@id": "41784789",
+    "name": "Swift Alps 2020",
+    "link": "https://theswiftalps.com",
+    "location": "🌐 Online",
+    "start": "2020-11-26",
+    "end": "2020-11-27"
+  },
+  {
+    "@id": "0bb9ef65",
+    "name": "NSSpain 2020 Remote Edition",
+    "link": "https://remote.nsspain.com/",
+    "start": "2020-11-19",
+    "end": "2020-11-20",
+    "location": "🌐 Online"
+  },
+  {
+    "@id": "ebe62b31",
+    "name": "Swift Heroes Digital",
+    "link": "https://swiftheroes.com/2020/",
+    "start": "2020-10-01",
+    "end": "2020-10-02",
+    "location": "🌐 Online"
+  },
+  {
+    "@id": "4c5f22ff",
+    "name": "Back to the Mac",
+    "link": "https://backtomac.org",
+    "start": "2020-11-09",
+    "end": "2020-11-10",
+    "location": "🌐 Online"
+  },
+  {
+    "@id": "541a6d30",
+    "name": "Swift TO",
+    "link": "https://www.swiftconf.to/",
+    "start": "2020-08-13",
+    "end": "2020-08-14",
+    "location": "🇨🇦 Toronto, Canada"
+  },
+  {
+    "@id": "6855e13f",
+    "name": "Pragma Conference",
+    "link": "https://pragmaconference.com/",
+    "start": "2020-10-07",
+    "end": "2020-10-09",
+    "location": "🇮🇹 Bologna, Italy"
+  },
+  {
+    "@id": "6f2ea86d",
+    "name": "FrenchKit SE",
+    "link": "https://www.frenchkit.fr/",
+    "start": "2020-10-02",
+    "end": "2020-10-02",
+    "location": "🇫🇷 Paris, France"
+  },
+  {
+    "@id": "3e788260",
+    "name": "Let’s Swift",
+    "link": "http://letswift.kr/2020/",
+    "start": "2020-11-30",
+    "end": "2020-12-04",
+    "location": "🇰🇷 Seoul, South Korea"
+  },
+  {
+    "@id": "5580223f",
+    "name": "Mobile Conf Thailand",
+    "link": "https://mobileconfth.com",
+    "start": "2019-08-24",
+    "end": "2019-08-24",
+    "location": "🇹🇭 Bangkok, Thailand"
+  }
+]
