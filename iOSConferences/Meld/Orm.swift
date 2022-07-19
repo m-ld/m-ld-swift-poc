@@ -20,7 +20,7 @@ import Combine
  concurrent on separate devices; the availability of this simplification is a
  key benefit of using **m-ld**).
 
- > 🚧 TODO: how is a domain actor initially obtained?
+ > TODO: how is a domain actor initially obtained?
  */
 protocol OrmDomain: Actor {
     /**
@@ -90,7 +90,7 @@ protocol OrmSubject: Identifiable, Codable, ObservableObject {
      Similarly, setting this flag DOES NOT cause this subject to be
      automatically removed from some other subject's visible graph.
 
-     > 🚧 Since this approach may sometimes breach the principle of least
+     > TODO Since this approach may sometimes breach the principle of least
      surprise, in future we hope to have a way to mark subject 'owners', so that
      deletes are cascaded through reference properties in an intuitive way.
      */
@@ -110,16 +110,17 @@ protocol OrmSubject: Identifiable, Codable, ObservableObject {
  multiple local changes made in succession (akin to a transaction against an SQL
  database).
 
- > 🚧 The available state-reading methods do not provide the expressiveness of
+ > TODO The available state-reading methods do not provide the expressiveness of
  **m-ld**'s query language, json-rql. We'll iterate on more expressive methods
- *as required.
+ as required.
  */
 protocol OrmState {
     /**
      Retrieve a single OrmSubject and its properties by its identity. If the
      subject does not exist in the domain, a new OrmSubject will be minted,
-     whose `deleted` flag will be `true` (thus representing a subject that is
-     not in the domain).
+     whose `deleted` flag will be `true`, thus representing a subject that is
+     not yet in the domain. When the subject is ready to be saved, the app
+     should set `deleted` to `false`.
      - Parameters:
        - id: identity of the subject (relative or absolute IRI)
        - type: type of the subject. If the given ID exists in the domain but has
@@ -154,7 +155,6 @@ protocol OrmState {
  The default coding keys of a subject
  */
 enum OrmKey: String, CodingKey {
-
     /// Subject identity: a relative IRI
     case id = "@id"
     /// Subject type: a vocabulary IRI. For OrmSubjects this is always the

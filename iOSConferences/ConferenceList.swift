@@ -16,6 +16,7 @@ struct ConferenceList: View {
     /// ``body`` & ``onAppear()``. If we wanted to limit the visible list (for
     /// example with paging, or infinite scroll), this would be a subset of all
     /// available conferences.
+    /// TODO: Provide SwiftUI State & Binding library classes instead?
     @State var conferences: [Conference] = []
 
     var body: some View {
