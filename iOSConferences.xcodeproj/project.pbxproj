@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B58690A410BA8991921BE6D2 /* conferencesData.json in Resources */ = {isa = PBXBuildFile; fileRef = B5869150D957893D22EA88BA /* conferencesData.json */; };
 		B58691117523BB736A4110E6 /* ConferenceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5869AD7422546B57773CCDC /* ConferenceList.swift */; };
+		B586915697B4C37D300CF14C /* AllConferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5869402327F4B3F9915E4D6 /* AllConferences.swift */; };
 		B58695490D4F982464926B0F /* ConferenceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B586988A0A587CA273F1DABF /* ConferenceDetails.swift */; };
 		B58695C6A91ABCF747417B15 /* Orm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5869470D3F1548EE79D237F /* Orm.swift */; };
 		B5869665C48C2805725F8609 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B5869B02350A368F1AA119A1 /* README.md */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		B5869150D957893D22EA88BA /* conferencesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = conferencesData.json; sourceTree = "<group>"; };
+		B5869402327F4B3F9915E4D6 /* AllConferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllConferences.swift; sourceTree = "<group>"; };
 		B5869470D3F1548EE79D237F /* Orm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orm.swift; sourceTree = "<group>"; };
 		B58695B580CBC4C8FABB10FA /* Conference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conference.swift; sourceTree = "<group>"; };
 		B586988A0A587CA273F1DABF /* ConferenceDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferenceDetails.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				B58695B580CBC4C8FABB10FA /* Conference.swift */,
+				B5869402327F4B3F9915E4D6 /* AllConferences.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -145,6 +148,9 @@
 /* Begin PBXProject section */
 		B5869D1EC6148D3F13EEE417 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "";
+			};
 			buildConfigurationList = B5869BC14494D9A0E408990F /* Build configuration list for PBXProject "iOSConferences" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -188,6 +194,7 @@
 				B5869B6886496838BC86D1C4 /* JsonDomain.swift in Sources */,
 				B5869A7C0CB4642FA01F950E /* JsonData.swift in Sources */,
 				B5869665C48C2805725F8609 /* README.md in Sources */,
+				B586915697B4C37D300CF14C /* AllConferences.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
